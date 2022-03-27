@@ -1,0 +1,238 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\setlength{\footskip}{4.09pt}   % don't understand
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNornal}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingNoTitle}[2]{
+  \vspace{-1pt}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      %\textbf{#1} & #2 \\
+      \textit{\small#1} & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItemNormal}[1]{\resumeItemNornal{#1}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Huynh Doan Minh Ngoc}} & \\
+  Data Engineer Fresher & \\
+  Email: ngochdm@gmail.com &
+  \href{github.com/ngochdm}{github.com/ngochdm}
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Science, Vietnam National University in Ho Chi Minh city}{}
+      {Bachelor in Computer Science, High-Quality Program}{2017 -- 2021}
+      
+      {GPA: \textbf{3.82/4.00}}{}
+      
+      {Courses: Data Mining, Machine Learning, Pattern Recognition, Big Data, Data Visualization, Data Science, Intelligent Data Analysist, Graph Mining...}
+  \resumeSubHeadingListEnd
+  
+  
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{RotatHS: Rotation Embedding on the Hyperplane with Soft Constraints for Link Prediction on Knowledge Graph}
+      {Paper at the ICCCI 2021 conference}
+      
+      \textit{Programming language}: Python. \textit{Library}: Pytorch
+      
+      Le, T., Huynh, N., Le, B. (2021). RotatHS: Rotation Embedding on the Hyperplane with Soft Constraints for Link Prediction on Knowledge Graph. In: Nguyen, N.T., Iliadis, L., Maglogiannis, I., Trawiński, B. (eds) Computational Collective Intelligence. ICCCI 2021. Lecture Notes in Computer Science(), vol 12876. Springer, Cham.
+      
+    \resumeSubItem{\href{https://github.com/ngochdm/RotatH---Link-Prediction-for-Knowledge-Graph}{Link Prediction on Knowledge Graph by Rotation Embedding on the Hyperplane in the Complex Vector Space}}
+      {Paper at the ICANN 2021 conference}
+      
+      \textit{Programming language}: Python. \textit{Library}: Pytorch
+      
+      Le, T., Huynh, N., Le, B. (2021). Link Prediction on Knowledge Graph by Rotation Embedding on the Hyperplane in the Complex Vector Space. In: Farkaš, I., Masulli, P., Otte, S., Wermter, S. (eds) Artificial Neural Networks and Machine Learning – ICANN 2021. ICANN 2021. Lecture Notes in Computer Science(), vol 12893. Springer, Cham.
+      
+
+%-----------PROJECTS-----------------
+\section{Projects}
+    \resumeSubItem{Link Prediction on the Knowledge Graph based on Rotation Embedding method (Graduated Thesis)}
+      {Read papers and report the Geometric approach in the Link Prediction problem;
+      Give the proposed model (RotatHS) to improving the performance; 
+      Code and conduct some experiments with the RotatHS model; 
+      Visualize the results and some comparisons;
+      Write thesis using Latex and preparing slides}
+      
+      \textit{Programming language}: Python
+      
+    \resumeSubItem{\href{https://github.com/ngochdm/Covid-in-Vietnam-2020}{Visualize and analyse the situation of COVID-19 in Vietnam}}
+      {Crawl Covid-19 data from Worldometer and Ministry of Health; Visualize data using the Tableau application; Write report and preparing slides; Apply the ARIMA and OLS models to predict the cases in the following day using \textit{sklearn} and \textit{statsmodels} libraries}
+      
+      \textit{Programming language}: Python
+      
+    \resumeSubItem{\href{https://github.com/ngochdm/Credit-Card-Fraud-Detection}{Credit card fraud detection}}
+      {Visualize data using the \textit{matplotlib} library; Apply some models to classify the fraudulent transactions; Write report and preparing slides}
+      
+      \textit{Programming language}: Python
+      
+    \resumeSubItem{\href{https://github.com/ngochdm/StudentManagement_WindowsProgramming}{Student management application}}
+      {Design and code the UI; Create database; Code and Test the features}
+      
+      \textit{Programming languages}: C\# (for UI) and SQL (for database)
+      
+\resumeSubHeadingListEnd
+
+
+
+\section{Activities}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SheCodes Hackathon in HCMC}{Jul 18th - 19th, 2020}
+      {First Place with VGO team}{}
+      
+    \resumeSubheading
+      {\href{https://e-nns.org/icann2021/}{30th International Conference on Artificial Neural Networks 2021}}{Sep 18th - 17th, 2021}
+      {Participate as an author of accepted paper}{}
+      
+      \href{https://doi.org/10.1007/978-3-030-86365-4_14}{Link Prediction on Knowledge Graph by Rotation Embedding on the Hyperplane in the Complex Vector Space}
+      
+    \resumeSubheading
+      {\href{https://iccci.pwr.edu.pl/2021/}{13th International Conference on Computational Collective Intelligence}}{Sep 28th - Oct 1st, 2021}
+      {Participate as an author of accepted paper}{}
+      
+      \href{https://doi.org/10.1007/978-3-030-88081-1_3}{RotatHS: Rotation Embedding on the Hyperplane with Soft Constraints for Link Prediction on Knowledge Graph}
+      
+    \resumeSubheading
+      {\href{https://www.fdi-tournament.com/}{Female Developer Innovation Tournament 2021}}{Dec 01st, 2021 - Feb 26th, 202}
+      {Champion and Best Innovation Idea with Lumière team}{\href{https://www.linkedin.com/posts/code-like-a-girl-vietnam_fditournament-codelikeagirl-innovation-activity-6905716587299520512-lCqE}{The detailed idea}}
+\resumeSubHeadingListEnd
+
+
+\section{Honor and Awards}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Semester Scholarship}{2017 - 2020}
+      {1st, 2nd, 3rd Semester}{}
+    \resumeSubheading
+      {Scholarship of the academic year}{2017 - 2020}
+      {Full Scholarship for top 1}{}
+    \resumeSubheading
+      {Gold table of achievements 2019 - 2020}{2019 - 2020}
+      {Top 5 best yearly GPA}{}
+    \resumeSubheading
+      {Excellent thesis topic}{Nov 26th, 2021}
+      {The Science and Technology Research Student Award 2021}{}
+    
+\resumeSubHeadingListEnd
+
+
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Languages}
+      {English (IELTS: 5.5)}
+    \resumeSubItem{Computer}
+      {Latex}
+    \resumeSubItem{Programming Language}
+      {Python, C++}
+    \resumeSubItem{Used to use}
+      {C\#, SQL, Java, Cuda C/C++}
+\resumeSubHeadingListEnd
+  
+  
+\section{Soft Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItemNormal
+      {Critical thinker with excellent problem solving skills}
+    \resumeSubItemNormal
+      {Adapt quickly to new environments}
+  \resumeSubItemNormal
+      {Good interpersonal and communication skills}
+\resumeSubHeadingListEnd
+
+
+\section{Objective}
+  \resumeSubHeadingListStart
+    \resumeSubItemNormal{Working and dedicating in a professional environment, respect each other, friendly,...}
+    \resumeSubItemNormal{Programming skills are trained in 4 years, capable of management (with the completion of a good team leader in most university projects) or jobs requiring a high level of technical expertise}
+    \resumeSubItemNormal{Research skills are trained during the course of the thesis (with 2 accepted papers in 2 international conferences)}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
