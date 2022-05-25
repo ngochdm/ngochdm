@@ -2,6 +2,6 @@ Hello 👋 My name is Ngoc :)
 
 About me:
 
-👩🏻‍🎓 Student at University of Science, VNU-HCM.
+👩🏻‍🎓 Bachelor in Computer Science (University of Science, VNU-HCM)
 
-👩🏻‍💻 Data Engineer Fresher
+👩🏻‍💻 Data Engineer Junior
