@@ -2,7 +2,7 @@ Hello 👋 My name is Ngoc ♪(´▽｀)
 
 About me:
 
-👩🏻‍🎓 Graduate Student in Computer Science 
+🎒 Graduate Student in Computer Science 
 
 👩🏻‍💻 Data Engineer Junior
 
