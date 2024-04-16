@@ -2,8 +2,10 @@ Hello 👋 My name is Ngoc ♪(´▽｀)
 
 About me:
 
-👩🏻‍🎓 Bachelor in Computer Science (University of Science, VNU-HCM)
+👩🏻‍🎓 Graduate Student in Computer Science 
 
 👩🏻‍💻 Data Engineer Junior
+
+👩🏻‍🎓 Bachelor in Computer Science (University of Science, VNU-HCM)
 
 Have a nice day ヾ(•ω•\`)o
